@@ -1,6 +1,6 @@
 <form action="" method="get">
-    <input type="text" name="x" id="x" value="<?= $_GET['x'] ?? '' ?>">
-    <input type="text" name="y" id="y" value="<?= $_GET['y'] ?? '' ?>">
+    <input type="text" name="x" id="x" value="">
+    <input type="text" name="y" id="y" value="">
     <input type="submit" value="+" name="action">
     <input type="submit" value="-" name="action">
 </form>
