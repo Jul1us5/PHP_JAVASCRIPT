@@ -21,8 +21,9 @@ if (!empty($_POST)) {
     header('Location: http://192.168.64.2/PHP/PHP_JAVASCRIPT/login/add-user.php'); // GET
     die();
 }
-
+echo '<a href="http://192.168.64.2/PHP/PHP_JAVASCRIPT/login/login.php">PGR</a><br>';
 ?>
+
 
 <?php if(isset($_SESSION['note'])) {
     echo $_SESSION['note'];
